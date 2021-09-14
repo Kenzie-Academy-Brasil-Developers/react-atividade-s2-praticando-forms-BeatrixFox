@@ -1,0 +1,25 @@
+.CardDescription-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  align-items: center;
+}
+.CardDescription-link {
+  text-align: center;
+  font-size: 15px;
+}
+
+@media (min-width: 800px) {
+  .CardDescription-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .CardDescription-link {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    font-size: 20px;
+  }
+}
